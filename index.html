@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vridha Sabha | Care, Support & Companionship</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Vridha Sabha home">
+      <span class="brand-mark">वृ</span>
+      <span><strong>Vridha Sabha</strong><small>Care • Support • Companionship</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+    <nav id="mainNav">
+      <a href="#home">Home</a><a href="#services">Services</a><a href="#how">How it works</a><a href="#about">About</a>
+    </nav>
+    <button class="btn btn-outline nav-cta" data-open-auth="senior">Get Started</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="dot"></span> A helping hand, whenever you need one</span>
+        <h1>Care that feels like<br><em>family.</em></h1>
+        <p>Connecting senior citizens with trusted helpers for everyday tasks, companionship and a little extra support.</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary" data-open-auth="senior">Find a Helper <span>→</span></button>
+          <a class="btn btn-light" href="#how">How it works</a>
+        </div>
+        <div class="trust-row"><div class="avatar-stack"><span>👩</span><span>👨</span><span>🧑</span></div><div><strong>Support made simple</strong><small>Designed with seniors in mind</small></div></div>
+      </div>
+      <div class="hero-art">
+        <div class="hero-image" role="img" aria-label="Senior citizen and young helper talking together"></div>
+        <div class="floating-card card-top"><span class="float-icon">♡</span><div><strong>Here for you</strong><small>Friendly everyday support</small></div></div>
+        <div class="floating-card card-bottom"><span class="float-icon green">✓</span><div><strong>Help is closer</strong><small>Find support in your area</small></div></div>
+        <div class="sun-shape"></div>
+      </div>
+    </section>
+
+    <section class="stats-strip">
+      <div><strong>01</strong><span>Simple registration</span></div><div><strong>02</strong><span>Choose your service</span></div><div><strong>03</strong><span>Connect with a helper</span></div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="section-heading"><span class="eyebrow">WHAT WE CAN HELP WITH</span><h2>Everyday help, made easier.</h2><p>Choose the support you need. You stay in control at every step.</p></div>
+      <div class="service-grid">
+        <article class="service-card"><div class="service-icon peach">🛒</div><h3>Grocery & Essentials</h3><p>Get daily groceries and household essentials brought to your doorstep.</p><button class="text-link" data-service="Grocery & Essentials">Request help →</button></article>
+        <article class="service-card"><div class="service-icon lilac">🏠</div><h3>Home Assistance</h3><p>Find help with small household tasks and everyday arrangements.</p><button class="text-link" data-service="Home Assistance">Request help →</button></article>
+        <article class="service-card"><div class="service-icon mint">🤝</div><h3>Companionship</h3><p>Connect with a friendly person for conversation, walks or activities.</p><button class="text-link" data-service="Companionship">Request help →</button></article>
+        <article class="service-card"><div class="service-icon butter">🚗</div><h3>Errands & Visits</h3><p>Get assistance with nearby errands and accompanied visits.</p><button class="text-link" data-service="Errands & Visits">Request help →</button></article>
+      </div>
+    </section>
+
+    <section class="how-section" id="how">
+      <div class="section-heading"><span class="eyebrow">A SIMPLE PROCESS</span><h2>Support in three steps.</h2><p>No complicated process. Just the help you need.</p></div>
+      <div class="steps"><div class="step"><span>1</span><h3>Create your account</h3><p>Register as a senior citizen or a helper.</p></div><div class="step"><span>2</span><h3>Share your requirement</h3><p>Select a service, location and preferred budget.</p></div><div class="step"><span>3</span><h3>Connect & coordinate</h3><p>Review requests and coordinate with a helper.</p></div></div>
+    </section>
+
+    <section class="role-section" id="about">
+      <div><span class="eyebrow">JOIN THE COMMUNITY</span><h2>There is a place<br>for everyone here.</h2><p>Whether you need a helping hand or want to offer your time and skills, Vridha Sabha brings people together.</p></div>
+      <div class="role-cards">
+        <article class="role-card"><div class="role-emoji">👵</div><h3>I'm a Senior Citizen</h3><p>Find reliable assistance for everyday needs.</p><button class="btn btn-primary" data-open-auth="senior">Continue as Senior →</button></article>
+        <article class="role-card"><div class="role-emoji">🧑‍🔧</div><h3>I'm a Helper</h3><p>Share your skills and respond to service requests.</p><button class="btn btn-dark" data-open-auth="worker">Join as Helper →</button></article>
+      </div>
+    </section>
+
+    <section class="closing-cta"><div><span class="eyebrow">VRIDHA SABHA</span><h2>A little support can make<br>a big difference.</h2></div><button class="btn btn-white" data-open-auth="senior">Get Started Today →</button></section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#home"><span class="brand-mark">वृ</span><span><strong>Vridha Sabha</strong><small>Care • Support • Companionship</small></span></a><p>© <span id="year"></span> Vridha Sabha. College project demonstration.</p><div><a href="#services">Services</a><a href="#how">How it works</a><button class="footer-admin" id="adminLogin">Admin demo</button></div></footer>
+
+  <button class="sos-fab" id="sosButton" title="SOS demo">SOS</button>
+
+  <!-- Authentication modal -->
+  <div class="modal-backdrop" id="authModal" aria-hidden="true">
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="authTitle">
+      <button class="modal-close" data-close-modal aria-label="Close">×</button>
+      <span class="eyebrow">WELCOME TO VRIDHA SABHA</span><h2 id="authTitle">Create your account</h2><p class="modal-subtitle">Enter your details to continue with the demo.</p>
+      <form id="authForm">
+        <label for="role">I want to join as</label><select id="role" required><option value="senior">Senior Citizen</option><option value="worker">Helper / Worker</option></select>
+        <label for="fullName">Full name</label><input id="fullName" type="text" placeholder="e.g. Ramesh Kumar" required minlength="2">
+        <label for="phone">Mobile number</label><input id="phone" type="tel" placeholder="10-digit mobile number" pattern="[6-9][0-9]{9}" maxlength="10" required>
+        <label for="city">Area / City</label><input id="city" type="text" placeholder="e.g. Rohini, Delhi" required>
+        <div id="workerFields" class="hidden"><label for="skills">Your skills</label><input id="skills" type="text" placeholder="e.g. Grocery, cooking, errands"></div>
+        <button class="btn btn-primary full-btn" type="submit">Continue to Dashboard →</button>
+      </form>
+      <small class="demo-note">Demo only: no OTP is sent and no real account is created.</small>
+    </section>
+  </div>
+
+  <!-- Dashboard modal -->
+  <div class="modal-backdrop" id="dashboardModal" aria-hidden="true">
+    <section class="modal dashboard-modal" role="dialog" aria-modal="true" aria-labelledby="dashboardTitle">
+      <button class="modal-close" data-close-modal aria-label="Close">×</button>
+      <div class="dashboard-top"><div><span class="eyebrow">YOUR SPACE</span><h2 id="dashboardTitle">Dashboard</h2><p id="welcomeText"></p></div><span class="dashboard-avatar" id="dashboardAvatar">👋</span></div>
+      <div id="dashboardContent"></div>
+      <button class="btn btn-light full-btn logout-btn" id="logoutButton">Log out</button>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
